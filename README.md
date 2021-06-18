@@ -1,14 +1,14 @@
 # Levart Test 1
 **Scenario**
 Take the included XML file ‘text.xml’ and use PHP to parse and output in the following html table format:
-" Genre	Title	Author	Publish Date    Description	Price "
+" Genre	| Title	| Author | Publish | Date | Description	| Price "
 
 Key Point
-•	The results should be ordered by Genre first, then Title.
-•	Publish date should be represented as ‘Mon, 10 Feb  2014’ format.
-•	Description should be limited to the closest full word around 32 chars and suffixed with an ellipsis.
-•	Output should be html5 and be utf-8 encoded.
-•	Under every Genre there should be a sum of the prices within that genre and a grand total at the bottom including a sum of all prices.
+*	The results should be ordered by Genre first, then Title.
+*	Publish date should be represented as ‘Mon, 10 Feb  2014’ format.
+*	Description should be limited to the closest full word around 32 chars and suffixed with an ellipsis.
+*	Output should be html5 and be utf-8 encoded.
+*	Under every Genre there should be a sum of the prices within that genre and a grand total at the bottom including a sum of all prices.
 
 
 **DEVELOPMENT** 
